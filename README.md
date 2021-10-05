@@ -1,2 +1,3 @@
 * Rock, Paper, Scissor Assignment from The Odin Project
-This is the CLI (console) based version
+A GUI Version of Rock-Paper-Scissors.
+This works fine (hopefully)
