@@ -1,0 +1,108 @@
+html{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #282a36;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+.selected{
+    border: 4px red solid;
+    font-weight: bold;
+}
+h1{
+    color: red;
+    text-align: center;
+    flex: 1;
+}
+h2{
+    color: aqua;
+    text-align: center;
+    flex: 1;
+}
+
+h3{
+    color: whitesmoke;
+    flex: 1;
+    font-weight: normal;
+    text-align: center;
+}
+#game-title{
+    color: red;
+    font-weight: bold;
+}
+.images{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+#result-text{
+    font-size: 2rem;
+}
+.image-block{
+    width: max-content;
+    font-weight: normal;
+}
+.image-text{
+    text-align: center;
+    color: white;
+}
+.btn{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+button{
+/*    flex: 1 ; */
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: indigo;
+    color: white;
+
+}
+.result{
+    color: red;
+    text-align: center;
+}
+.result-row{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.computer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    opacity: 0;
+    margin-top: 1rem;
+ 
+}
+#play-again{
+    opacity: 0;
+}
+#computer-block{
+/*    border: red 4px solid; */
+}
+
